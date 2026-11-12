@@ -48,9 +48,12 @@ Generated replay memories and models are not committed (see `.gitignore`).
 - `schnapsen_ml_models.py`: `Phase2FocusedBot`, `create_training_data`, `train_models`, `play_test_games`, `test_models`.
 - `report/Comparing_NN_and_LR_for_Schnapsen.pdf`: the project report.
 
-## Author
+## Team
 
-Göktuğ Yıldırım — Project Intelligent Systems, BSc Artificial Intelligence, Vrije Universiteit Amsterdam (2025)
+Team project for **Project Intelligent Systems**, BSc Artificial Intelligence, Vrije Universiteit Amsterdam (2025).
+Team: Danila Popusoi, Göktuğ Yıldırım.
+
+The report was submitted to the course's OpenReview venue (VU Amsterdam 2025 PrIns, submission 31) under the title "Comparing Neural Networks and Linear Regression for Schnapsen Agents". The PDF in this repository is the anonymised submission copy.
 
 ## License
 
