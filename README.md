@@ -11,6 +11,15 @@ Full write-up: [report/Comparing_NN_and_LR_for_Schnapsen.pdf](report/Comparing_N
 - Evaluation: 200 position-balanced games per matchup (100 as first player, 100 as second player) against five opponents: Random, Bully, Phase2FocusedBot, RDeep-Basic and RDeep-Advanced.
 - Phase2FocusedBot is a hand-written bot in this repo. It prefers marriages and trump exchanges in phase 1, and plays for points in phase 2.
 
+```mermaid
+flowchart LR
+    A["Bots play<br/>self-play games"] --> B["Replay memory<br/>recorded by MLDataBot"]
+    B --> C["Train MLP"]
+    B --> D["Train logistic<br/>regression"]
+    C --> E["200 position-balanced games<br/>vs each of 5 opponents"]
+    D --> E
+```
+
 ## Results (numbers as stated in the report)
 
 Win rates are over 200 games per matchup.
